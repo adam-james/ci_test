@@ -5,10 +5,6 @@ class TodosControllerTest < ActionDispatch::IntegrationTest
     @todo = todos(:one)
   end
 
-  test "fails" do
-    assert false
-  end
-
   test "should get index" do
     get todos_url
     assert_response :success
